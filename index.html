@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<title>DeadZone Hunting</title>
+<style>
+html,body{margin:0;padding:0;background:#070a0d;color:#d7dedb;font-family:Arial,Verdana,Tahoma,sans-serif;font-size:14px;line-height:1.45}
+body{background:#070a0d}
+.shell{width:94%;margin:0 auto;padding:10px 0 22px}
+.hero{height:220px;border:1px solid #3b4943;background:#0a0e10 url('assets/hero.jpg') center center no-repeat;background-size:cover;overflow:hidden}
+.hero-overlay{height:220px;background:rgba(3,6,7,.55)}
+.brand-table{width:100%;height:220px;border-collapse:collapse}
+.brand-logo{width:116px;padding:14px 6px 14px 18px;vertical-align:middle;text-align:center}
+.brand-logo img{display:block;width:100px;height:100px;margin:0 auto;border:0}
+.brand-copy{padding:18px 24px 18px 8px;vertical-align:middle}
+.protocol{display:inline-block;margin-bottom:8px;padding:4px 8px;border-left:3px solid #87e60b;background:#0a100d;color:#a3ed42;font-size:11px;font-weight:bold;letter-spacing:2px}
+h1{margin:0;color:#f1f4f2;font-size:28px;line-height:1.08;letter-spacing:2px;text-shadow:0 2px 3px #000}
+.tagline{margin-top:9px;color:#a1ed3c;font-size:13px;font-weight:bold;letter-spacing:1px;text-shadow:0 1px 2px #000}
+.redline{width:86px;height:2px;margin-top:13px;background:#8e2424;overflow:hidden}
+.event{margin-top:10px;padding:9px 12px;border:1px solid #63302e;background:#1a0e0e;color:#e4c4c0;font-weight:bold}
+.event span{margin-right:10px;color:#f06a59;letter-spacing:1px}
+.event-banner{display:block;width:100%;max-height:180px;margin:0 0 9px;border:0;object-fit:cover}
+.section{margin-top:10px;border:1px solid #28342f;background:#111719}
+.section-title{padding:9px 12px;border-bottom:1px solid #303c37;background:#0c1112;color:#a0eb3d;font-size:13px;font-weight:bold;letter-spacing:1.5px}
+.section-body{padding:13px 15px}
+.intro-table,.main-table,.tips-table{width:100%;border-collapse:collapse}
+.intro-icon{width:42px;vertical-align:middle;color:#93e62e;font-size:30px;font-weight:bold;text-align:center}
+.intro-copy{vertical-align:middle;color:#d7dedb}
+.main-table{margin-top:12px;border-spacing:0}
+.main-cell{width:50%;vertical-align:top}
+.main-left{padding-right:6px}
+.main-right{padding-left:6px}
+.command-table{width:100%;border-collapse:collapse}
+.command-cell{width:95px;padding:4px 5px 4px 0;vertical-align:top}
+.command-description{padding:4px 0;color:#aeb8b3;vertical-align:top}
+.command{display:inline-block;min-width:74px;padding:3px 7px;border:1px solid #3f5a35;background:#0b120d;color:#a9f34b;font-family:Verdana,Arial,sans-serif;font-size:12px;font-weight:bold;text-align:center}
+.rule-row{min-height:24px;padding:4px 0;border-bottom:1px solid #202a26}
+.rule-number{display:inline-block;width:22px;color:#bb4b43;font-weight:bold}
+.rule-text{color:#cdd4d1}
+.tips-table td{width:50%;padding:6px 9px;border-bottom:1px solid #202a26;color:#c7cfcb;vertical-align:top}
+.tip-mark{color:#94e637;font-weight:bold}
+.community{margin-top:12px;padding:10px 13px;border:1px solid #2d3a35;background:#0d1314;color:#9aa6a0;text-align:center}
+.community span{margin-right:12px;color:#9ee83a;font-weight:bold;letter-spacing:1px}
+.community a{color:#c5f586;text-decoration:none;font-weight:bold}
+.community b{color:#4d5c55}
+.community-graphic{display:block;width:100%;max-height:220px;margin:12px auto 0;border:1px solid #2d3a35;object-fit:contain;background:#0a0f10}
+.footer{margin-top:12px;padding:15px;border-top:2px solid #75c80d;background:#0a0f10;color:#a6f344;font-size:16px;font-weight:bold;letter-spacing:2px;text-align:center}
+.version{display:block;margin-top:4px;color:#76827c;font-size:10px;letter-spacing:1px}
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="hero">
+    <div class="hero-overlay">
+      <table class="brand-table"><tr>
+        <td class="brand-logo"><img src="assets/logo.png" alt="Zombie Hunting emblem"></td>
+        <td class="brand-copy">
+          <div class="protocol">OUTBREAK COMMAND CENTER</div>
+          <h1>DeadZone Hunting</h1>
+          <div class="tagline">ZOMBIE HUNTING • RESPAWN • RANK • ALL WEAPONS</div>
+          <div class="redline"></div>
+        </td>
+      </tr></table>
+    </div>
+  </div>
+  
+
+  <div class="section">
+    <div class="section-title">SURVIVE THE INFECTION</div>
+    <div class="section-body">
+      <table class="intro-table"><tr><td class="intro-icon">//</td><td class="intro-copy">Humans start together. Mother Zombies are chosen after the infection countdown. Use teamwork, movement and knockback to survive.</td></tr></table>
+    </div>
+  </div>
+
+  <table class="main-table"><tr>
+    <td class="main-cell main-left">
+      <div class="section">
+        <div class="section-title">QUICK COMMANDS</div>
+        <div class="section-body"><table class="command-table"><tr><td class="command-cell"><span class="command">!zmenu</span></td><td class="command-description">Zombie menu and classes</td></tr>
+<tr><td class="command-cell"><span class="command">!rank</span></td><td class="command-description">Your current rank</td></tr>
+<tr><td class="command-cell"><span class="command">!top</span></td><td class="command-description">Top-ranked hunters</td></tr>
+<tr><td class="command-cell"><span class="command">!stats</span></td><td class="command-description">Detailed player stats</td></tr>
+<tr><td class="command-cell"><span class="command">!nominate</span></td><td class="command-description">Nominate the next map</td></tr>
+<tr><td class="command-cell"><span class="command">!rtv</span></td><td class="command-description">Request a map vote</td></tr>
+<tr><td class="command-cell"><span class="command">!rules</span></td><td class="command-description">Open server rules</td></tr>
+<tr><td class="command-cell"><span class="command">!commands</span></td><td class="command-description">Open command overview</td></tr>
+</table></div>
+      </div>
+    </td>
+    <td class="main-cell main-right">
+      <div class="section">
+        <div class="section-title">SERVER RULES</div>
+        <div class="section-body"><div class="rule-row"><span class="rule-number">1</span><span class="rule-text">No cheating.</span></div>
+<div class="rule-row"><span class="rule-number">2</span><span class="rule-text">No exploit abuse.</span></div>
+<div class="rule-row"><span class="rule-number">3</span><span class="rule-text">No intentional blocking or griefing.</span></div>
+<div class="rule-row"><span class="rule-number">4</span><span class="rule-text">No reconnect abuse.</span></div>
+<div class="rule-row"><span class="rule-number">5</span><span class="rule-text">Respect players and admins.</span></div>
+<div class="rule-row"><span class="rule-number">6</span><span class="rule-text">Follow map-specific rules.</span></div>
+</div>
+      </div>
+    </td>
+  </tr></table>
+
+  <div class="section">
+    <div class="section-title">HUNTING TIPS</div>
+    <div class="section-body"><table class="tips-table"><tr><td class="tip"><span class="tip-mark">+</span> Keep moving.</td><td class="tip"><span class="tip-mark">+</span> Watch flank routes.</td></tr>
+<tr><td class="tip"><span class="tip-mark">+</span> Use knockback wisely.</td><td class="tip"><span class="tip-mark">+</span> Shotguns are strong at close range.</td></tr>
+<tr><td class="tip"><span class="tip-mark">+</span> Do not tunnel-vision one zombie.</td><td class="tip"><span class="tip-mark">+</span> Dead humans may return as zombies.</td></tr>
+<tr><td class="tip"><span class="tip-mark">+</span> Strong camp spots can still be flanked.</td><td class="tip empty">&nbsp;</td></tr>
+</table></div>
+  </div>
+  <div class="community"><span>COMMUNITY</span> <a href="https://discord.gg/Skjb6sc47x">DISCORD</a></div>
+  <div class="footer">HUNT. SURVIVE. INFECT.<span class="version">DeadZone Hunting | v2 Stable</span></div>
+</div>
+</body>
+</html>
